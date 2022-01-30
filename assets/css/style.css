@@ -1,0 +1,54 @@
+/* TODO: Label selector type
+- This is the UNIVERSAL selector- this is used when you want to target ALL
+elements of a page e.g. here, using a universal selector means the entire HTML has
+been assigned this specific font */
+
+
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+
+
+/* TODO: Label selector type
+- Here you're targeting the ENTIRE body element so this property is applied
+to everything within the body tag */
+body {
+  background-color: lemonchiffon;
+}
+
+
+/* Here, two element selectors have been used- they have been grouped together and this allows
+the following properties to be applied to BOTH elements*/
+
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+
+/*The element selector 'figure' has been used to target the ENTIRE figure
+element, this property will be applied to the figure element only*/
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* TODO: Label selector type 
+- a class attribute has been used here 
+- */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* TODO: Label selector type
+- an ID selector/attribute  */
+#contact-section {
+  background-color: #f0ead6;
+}
